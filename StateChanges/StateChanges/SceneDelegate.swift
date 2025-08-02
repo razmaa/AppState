@@ -10,7 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    private var lifecycleLogger: LifecycleLogger?    // ← keep a strong ref
+    private var lifecycleLogger: LifecycleLogger?    
 
     func scene(_ scene: UIScene,
                willConnectTo session: UISceneSession,
